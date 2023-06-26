@@ -1,0 +1,20 @@
+[Big Saw] y [Static Saw (Medium)]
+> Simplemente se colocan en el lugar donde se desee
+
+[Mobile Saw (Medium)] y [Mobile Saw (Small)]
+> Se coloca la sierra en su posicion por defecto
+> Se ubica el "Target" en el punto hasta donde se movera la sierra
+> Se ajusta la "Speed" y el "Delay" segun la distancia
+
+[Activable Saw (Medium)]
+> Se ubica el hijo "Saw" en la posicion inicial
+> Se ubica el hijo "Switch" donde se desee
+> Se ubica el hijo "Hide Position" en la posicion donde se movera la sierra cuando se active el "Switch"
+> Se ajusta el parametro "Hide Speed" en el "Switch" segun la distancia entre "Saw" y el "Hide Position"
+
+[Proyectile Saw]
+> Se ajusta la "Direction" segun el movimiento deseado (Por defecto <1,0> [Hacia la derecha])
+> Se ajusta la velocidad deseada
+Este objeto se recomienda instanciarlo mediante otro script o implementar un pool.
+
+
